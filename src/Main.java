@@ -18,6 +18,7 @@ public class Main {
         System.out.println(ogniemImieczem.toString());
 
         System.out.println(ogniemImieczem.getISBNandTitle());
+        System.out.println("check git repository ");
 
     }
 }
