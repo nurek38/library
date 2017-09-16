@@ -10,6 +10,9 @@ public class Book {
         this.ISBN = ISBN;
     }
 
+    public Book() {
+    }
+
     public String getTitle() {
         return title;
     }
@@ -32,5 +35,14 @@ public class Book {
 
     public void setISBN(String ISBN) {
         this.ISBN = ISBN;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", ID=" + ID +
+                ", ISBN='" + ISBN + '\'' +
+                '}';
     }
 }
