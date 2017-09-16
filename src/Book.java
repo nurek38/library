@@ -45,4 +45,11 @@ public class Book {
                 ", ISBN='" + ISBN + '\'' +
                 '}';
     }
+
+    public String getISBNandTitle() {
+        return this.title+" " + this.ISBN;
+
+
+    }
+
 }

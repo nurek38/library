@@ -16,7 +16,8 @@ public class Main {
         System.out.println(ogniemImieczem.getID());
         System.out.println(ogniemImieczem.getISBN());
         System.out.println(ogniemImieczem.toString());
-        
+
+        System.out.println(ogniemImieczem.getISBNandTitle());
 
     }
 }
